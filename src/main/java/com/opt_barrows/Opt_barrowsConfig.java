@@ -1,11 +1,11 @@
-package com.example;
+package com.opt_barrows;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
 @ConfigGroup("example")
-public interface ExampleConfig extends Config
+public interface Opt_barrowsConfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",
